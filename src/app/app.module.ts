@@ -9,6 +9,7 @@ import { FooterComponent } from './template/footer/footer.component';
 import { ConversorComponent } from './conversor/conversor.component';
 import { ListagemComponent } from './listagem/listagem.component';
 import { HistoricolistagemComponent } from './historicolistagem/historicolistagem.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HistoricolistagemComponent } from './historicolistagem/historicolistage
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
